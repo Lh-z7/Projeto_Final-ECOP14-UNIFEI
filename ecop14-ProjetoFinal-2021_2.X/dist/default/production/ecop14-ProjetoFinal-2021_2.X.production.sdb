@@ -1,0 +1,891 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"36 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\keypad.c
+[e E9 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"19 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\lcd.c
+[e E5 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"5 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\rgb.c
+[e E2 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"4 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\so.c
+[e E2 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"54 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\ssd.c
+[e E7 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"169 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\bombaComb.c
+[e E2354 pin_label `uc
+PIN_A0 0
+PIN_A1 1
+PIN_A2 2
+PIN_A3 3
+PIN_A4 4
+PIN_A5 5
+PIN_A6 6
+PIN_A7 7
+PIN_B0 8
+PIN_B1 9
+PIN_B2 10
+PIN_B3 11
+PIN_B4 12
+PIN_B5 13
+PIN_B6 14
+PIN_B7 15
+PIN_C0 16
+PIN_C1 17
+PIN_C2 18
+PIN_C3 19
+PIN_C4 20
+PIN_C5 21
+PIN_C6 22
+PIN_C7 23
+PIN_D0 24
+PIN_D1 25
+PIN_D2 26
+PIN_D3 27
+PIN_D4 28
+PIN_D5 29
+PIN_D6 30
+PIN_D7 31
+PIN_E0 32
+PIN_E1 33
+PIN_E2 34
+PIN_E3 35
+PIN_E4 36
+PIN_E5 37
+PIN_E6 38
+PIN_E7 39
+]
+"2 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\atraso.c
+[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
+"21 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\bombaComb.c
+[v _telaInicial telaInicial `(v  1 e 1 0 ]
+"43
+[v _opcaoInvalida opcaoInvalida `(v  1 e 1 0 ]
+"59
+[v _abastecimentoBomba abastecimentoBomba `(v  1 e 1 0 ]
+"188
+[v _selecaoCombustivel selecaoCombustivel `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"14 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\io.c
+[v _digitalWrite digitalWrite `(v  1 e 1 0 ]
+"39
+[v _digitalRead digitalRead `(i  1 e 2 0 ]
+"54
+[v _pinMode pinMode `(v  1 e 1 0 ]
+"17 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\keypad.c
+[v _kpReadKey kpReadKey `(uc  1 e 1 0 ]
+"27
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+"54
+[v _kpInit kpInit `(v  1 e 1 0 ]
+"5 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\lcd.c
+[v _delayMicro delayMicro `(v  1 e 1 0 ]
+"10
+[v _delayMili delayMili `(v  1 e 1 0 ]
+"18
+[v _pulseEnablePin pulseEnablePin `(v  1 e 1 0 ]
+"25
+[v _pushNibble pushNibble `(v  1 e 1 0 ]
+"31
+[v _pushByte pushByte `(v  1 e 1 0 ]
+"40
+[v _lcdCommand lcdCommand `(v  1 e 1 0 ]
+"52
+[v _lcdChar lcdChar `(v  1 e 1 0 ]
+"57
+[v _lcdString lcdString `(v  1 e 1 0 ]
+"72
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+"33 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"3 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\rgb.c
+[v _rgbColor rgbColor `(v  1 e 1 0 ]
+"45
+[v _rgbInit rgbInit `(v  1 e 1 0 ]
+"30 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\serial.c
+[v _serial_init serial_init `(v  1 e 1 0 ]
+"50
+[v _serial_tx serial_tx `(v  1 e 1 0 ]
+"56
+[v _serial_tx_str serial_tx_str `(v  1 e 1 0 ]
+"67
+[v _serial_rx serial_rx `(uc  1 e 1 0 ]
+"3 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\so.c
+[v _soInit soInit `(v  1 e 1 0 ]
+"9
+[v _PulseEnClock PulseEnClock `(v  1 e 1 0 ]
+"14
+[v _PulseClockData PulseClockData `(v  1 e 1 0 ]
+"18
+[v _soWrite soWrite `(v  1 e 1 0 ]
+"34 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\ssd.c
+[v _ssdDigit ssdDigit `(v  1 e 1 0 ]
+"50
+[v _ssdUpdate ssdUpdate `(v  1 e 1 0 ]
+"94
+[v _ssdInit ssdInit `(v  1 e 1 0 ]
+"26 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\timer.c
+[v _timerEnded timerEnded `(uc  1 e 1 0 ]
+"31
+[v _timerWait timerWait `(v  1 e 1 0 ]
+"37
+[v _timerReset timerReset `(v  1 e 1 0 ]
+"55
+[v _timerInit timerInit `(v  1 e 1 0 ]
+"52 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"271
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"450
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"632
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"774
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1477
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1699
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2365
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S137 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2693
+[s S146 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S150 . 1 `S137 1 . 1 0 `S146 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES150  1 e 1 @3998 ]
+[s S77 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3151
+[s S86 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S89 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S92 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S95 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S98 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S100 . 1 `S77 1 . 1 0 `S86 1 . 1 0 `S89 1 . 1 0 `S92 1 . 1 0 `S95 1 . 1 0 `S98 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES100  1 e 1 @4011 ]
+[s S25 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3359
+[s S34 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S43 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S46 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S48 . 1 `S25 1 . 1 0 `S34 1 . 1 0 `S43 1 . 1 0 `S46 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES48  1 e 1 @4012 ]
+"3576
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3588
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3600
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4690
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6168
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6258
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6265
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+"6692
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"6 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\keypad.c
+[v _keys keys `ui  1 s 2 keys ]
+"12
+[v _charKey charKey `C[10]uc  1 s 10 charKey ]
+"28 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\ssd.c
+[v _valor valor `C[16]uc  1 s 16 valor ]
+"30
+[v _display display `uc  1 s 1 display ]
+"32
+[v _v0 v0 `uc  1 s 1 v0 ]
+[v _v1 v1 `uc  1 s 1 v1 ]
+[v _v2 v2 `uc  1 s 1 v2 ]
+[v _v3 v3 `uc  1 s 1 v3 ]
+"33 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"34
+[v main@tecla tecla `uc  1 a 1 119 ]
+[v main@slot slot `uc  1 a 1 118 ]
+"104
+} 0
+"55 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\timer.c
+[v _timerInit timerInit `(v  1 e 1 0 ]
+{
+"59
+} 0
+"21 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\bombaComb.c
+[v _telaInicial telaInicial `(v  1 e 1 0 ]
+{
+"40
+} 0
+"94 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\ssd.c
+[v _ssdInit ssdInit `(v  1 e 1 0 ]
+{
+"104
+} 0
+"30 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\serial.c
+[v _serial_init serial_init `(v  1 e 1 0 ]
+{
+"46
+} 0
+"188 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\bombaComb.c
+[v _selecaoCombustivel selecaoCombustivel `(v  1 e 1 0 ]
+{
+[v selecaoCombustivel@teclaIn teclaIn `uc  1 a 1 wreg ]
+"189
+[v selecaoCombustivel@buffer buffer `[5]uc  1 a 5 101 ]
+"190
+[v selecaoCombustivel@total total `f  1 a 4 110 ]
+[v selecaoCombustivel@litros litros `f  1 a 4 106 ]
+[v selecaoCombustivel@price price `f  1 a 4 97 ]
+"189
+[v selecaoCombustivel@i i `uc  1 a 1 115 ]
+[v selecaoCombustivel@op op `uc  1 a 1 114 ]
+"188
+[v selecaoCombustivel@teclaIn teclaIn `uc  1 a 1 wreg ]
+[v selecaoCombustivel@teclaIn teclaIn `uc  1 a 1 96 ]
+"296
+} 0
+"67 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\serial.c
+[v _serial_rx serial_rx `(uc  1 e 1 0 ]
+{
+"69
+[v serial_rx@to to `ui  1 a 2 8 ]
+"67
+[v serial_rx@timeout timeout `ui  1 p 2 6 ]
+"86
+} 0
+"43 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\bombaComb.c
+[v _opcaoInvalida opcaoInvalida `(v  1 e 1 0 ]
+{
+"56
+} 0
+"59
+[v _abastecimentoBomba abastecimentoBomba `(v  1 e 1 0 ]
+{
+"62
+[v abastecimentoBomba@cont cont `f  1 a 4 88 ]
+"61
+[v abastecimentoBomba@tempo tempo `i  1 a 2 86 ]
+"60
+[v abastecimentoBomba@tecla tecla `uc  1 a 1 85 ]
+"59
+[v abastecimentoBomba@totalIn totalIn `f  1 p 4 77 ]
+[v abastecimentoBomba@litrosIn litrosIn `f  1 p 4 81 ]
+"185
+} 0
+"31 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\timer.c
+[v _timerWait timerWait `(v  1 e 1 0 ]
+{
+"34
+} 0
+"37
+[v _timerReset timerReset `(v  1 e 1 0 ]
+{
+"39
+[v timerReset@ciclos ciclos `ui  1 a 2 2 ]
+"37
+[v timerReset@tempo tempo `ui  1 p 2 0 ]
+"53
+} 0
+"26
+[v _timerEnded timerEnded `(uc  1 e 1 0 ]
+{
+"29
+} 0
+"50 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\ssd.c
+[v _ssdUpdate ssdUpdate `(v  1 e 1 0 ]
+{
+"92
+} 0
+"34
+[v _ssdDigit ssdDigit `(v  1 e 1 0 ]
+{
+[v ssdDigit@val val `uc  1 a 1 wreg ]
+[v ssdDigit@val val `uc  1 a 1 wreg ]
+[v ssdDigit@pos pos `uc  1 p 1 41 ]
+[v ssdDigit@val val `uc  1 a 1 42 ]
+"48
+} 0
+"56 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\serial.c
+[v _serial_tx_str serial_tx_str `(v  1 e 1 0 ]
+{
+"58
+[v serial_tx_str@i i `uc  1 a 1 5 ]
+"56
+[v serial_tx_str@val val `*.25Cuc  1 p 2 1 ]
+"65
+} 0
+"50
+[v _serial_tx serial_tx `(v  1 e 1 0 ]
+{
+[v serial_tx@val val `uc  1 a 1 wreg ]
+[v serial_tx@val val `uc  1 a 1 wreg ]
+"52
+[v serial_tx@val val `uc  1 a 1 0 ]
+"54
+} 0
+"3 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\rgb.c
+[v _rgbColor rgbColor `(v  1 e 1 0 ]
+{
+[v rgbColor@led led `i  1 p 2 6 ]
+"19
+} 0
+"57 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\lcd.c
+[v _lcdString lcdString `(v  1 e 1 0 ]
+{
+"58
+[v lcdString@i i `i  1 a 2 18 ]
+"57
+[v lcdString@msg msg `*.25uc  1 p 2 14 ]
+"63
+} 0
+"52
+[v _lcdChar lcdChar `(v  1 e 1 0 ]
+{
+[v lcdChar@value value `uc  1 a 1 wreg ]
+[v lcdChar@value value `uc  1 a 1 wreg ]
+[v lcdChar@value value `uc  1 a 1 13 ]
+"55
+} 0
+"17 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\keypad.c
+[v _kpReadKey kpReadKey `(uc  1 e 1 0 ]
+{
+"18
+[v kpReadKey@i i `i  1 a 2 3 ]
+"26
+} 0
+"27
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+{
+"28
+[v kpDebounce@i i `i  1 a 2 12 ]
+"29
+[v kpDebounce@tempo tempo `uc  1 s 1 tempo ]
+"30
+[v kpDebounce@newRead newRead `ui  1 s 2 newRead ]
+"31
+[v kpDebounce@oldRead oldRead `ui  1 s 2 oldRead ]
+"52
+} 0
+"39 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\io.c
+[v _digitalRead digitalRead `(i  1 e 2 0 ]
+{
+[v digitalRead@pin pin `i  1 p 2 0 ]
+"52
+} 0
+"2 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\atraso.c
+[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
+{
+"4
+[v atraso_ms@i i `i  1 a 2 2 ]
+"3
+[v atraso_ms@k k `VEuc  1 a 1 5 ]
+[v atraso_ms@j j `VEuc  1 a 1 4 ]
+"2
+[v atraso_ms@num num `ui  1 p 2 0 ]
+"10
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 34 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 33 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 25 ]
+"70
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 19 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 12 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 17 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 24 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 23 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 16 ]
+"11
+[v ___fldiv@b b `d  1 p 4 0 ]
+[v ___fldiv@a a `d  1 p 4 4 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 76 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 75 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 74 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 73 ]
+"10
+[v ___fladd@b b `d  1 p 4 61 ]
+[v ___fladd@a a `d  1 p 4 65 ]
+"237
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 40 ]
+[v ___awmod@counter counter `uc  1 a 1 39 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 35 ]
+[v ___awmod@divisor divisor `i  1 p 2 37 ]
+"34
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 57 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 56 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 47 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 55 ]
+"44
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 45 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 41 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 43 ]
+"53
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1008 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1013 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1016 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1008 1 fAsBytes 4 0 `S1013 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1016  1 a 4 80 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 74 ]
+[s S1084 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1087 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1084 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1087  1 a 2 84 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 79 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 78 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 73 ]
+"8
+[v ___flmul@b b `d  1 p 4 61 ]
+[v ___flmul@a a `d  1 p 4 65 ]
+"205
+} 0
+"45 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\rgb.c
+[v _rgbInit rgbInit `(v  1 e 1 0 ]
+{
+"49
+} 0
+"72 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\lcd.c
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+{
+"91
+} 0
+"25
+[v _pushNibble pushNibble `(v  1 e 1 0 ]
+{
+[v pushNibble@value value `uc  1 a 1 wreg ]
+[v pushNibble@value value `uc  1 a 1 wreg ]
+[v pushNibble@rs rs `i  1 p 2 9 ]
+[v pushNibble@value value `uc  1 a 1 11 ]
+"29
+} 0
+"40
+[v _lcdCommand lcdCommand `(v  1 e 1 0 ]
+{
+[v lcdCommand@value value `uc  1 a 1 wreg ]
+[v lcdCommand@value value `uc  1 a 1 wreg ]
+[v lcdCommand@value value `uc  1 a 1 13 ]
+"43
+} 0
+"31
+[v _pushByte pushByte `(v  1 e 1 0 ]
+{
+[v pushByte@value value `uc  1 a 1 wreg ]
+[v pushByte@value value `uc  1 a 1 wreg ]
+[v pushByte@rs rs `i  1 p 2 9 ]
+[v pushByte@value value `uc  1 a 1 12 ]
+"39
+} 0
+"18 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\so.c
+[v _soWrite soWrite `(v  1 e 1 0 ]
+{
+"19
+[v soWrite@i i `uc  1 a 1 8 ]
+"18
+[v soWrite@value value `i  1 p 2 6 ]
+"27
+} 0
+"9
+[v _PulseEnClock PulseEnClock `(v  1 e 1 0 ]
+{
+"12
+} 0
+"14
+[v _PulseClockData PulseClockData `(v  1 e 1 0 ]
+{
+"17
+} 0
+"18 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\lcd.c
+[v _pulseEnablePin pulseEnablePin `(v  1 e 1 0 ]
+{
+"23
+} 0
+"14 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\io.c
+[v _digitalWrite digitalWrite `(v  1 e 1 0 ]
+{
+[v digitalWrite@pin pin `i  1 p 2 0 ]
+[v digitalWrite@value value `i  1 p 2 2 ]
+"38
+} 0
+"5 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\lcd.c
+[v _delayMicro delayMicro `(v  1 e 1 0 ]
+{
+[v delayMicro@a a `i  1 p 2 0 ]
+"9
+} 0
+"10
+[v _delayMili delayMili `(v  1 e 1 0 ]
+{
+"11
+[v delayMili@i i `VEi  1 a 2 3 ]
+"10
+[v delayMili@a a `i  1 p 2 0 ]
+"16
+} 0
+"54 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\keypad.c
+[v _kpInit kpInit `(v  1 e 1 0 ]
+{
+"59
+} 0
+"3 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\so.c
+[v _soInit soInit `(v  1 e 1 0 ]
+{
+"7
+} 0
+"54 C:\Codigos\PICSimLab\ecop14-ProjetoFinal-2021_2.X\io.c
+[v _pinMode pinMode `(v  1 e 1 0 ]
+{
+[v pinMode@pin pin `i  1 p 2 0 ]
+[v pinMode@type type `i  1 p 2 2 ]
+"73
+} 0

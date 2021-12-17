@@ -4,6 +4,8 @@ Projeto final das disciplinas de embarcados ECOP04 e ECOP14 da Universidade Fede
 
 Desenvolvido por: Luiz Henrique Alves do Nascimento
 
+Data: 2021.2
+
 O projeto simula o funcionamento de uma bomba de combustível utilizando a placa PQDB, o microcontrolador PIC18F4520 e a MPLAB X IDE v5.35 .
 
 Entre os recursos da placa utilizados estão:
